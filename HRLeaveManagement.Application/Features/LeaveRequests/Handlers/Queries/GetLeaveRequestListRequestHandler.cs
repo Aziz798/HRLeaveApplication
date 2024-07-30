@@ -8,7 +8,7 @@ namespace HRLeaveManagement.Application.Features.LeaveRequests.Handlers.Queries;
 
 public class GetLeaveRequestListRequestHandler:IRequestHandler<GetLeaveRequestListRequest,List<LeaveRequestListDto>>
 {
-    public readonly ILeaveRequestRepository _leaveRequestRepository;
+    private readonly ILeaveRequestRepository _leaveRequestRepository;
     private readonly IMapper _mapper;
     
     public GetLeaveRequestListRequestHandler(ILeaveRequestRepository leaveRequestRepository, IMapper mapper)
