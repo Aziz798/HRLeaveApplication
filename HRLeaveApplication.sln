@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F7235274-3184-493A-9EDC-F9858E3BF24C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{346D1255-00FE-49F4-8546-C4B114D75893}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{22B96620-BC3B-41CE-AE9D-D8BBB58FC018}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A0FB3DB1-B2F3-46D2-9CE1-8DBCEAC73638}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{82BE6837-6C8F-4D28-A823-59962BA00CCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Domain", "HRLeaveManagement.Domain\HRLeaveManagement.Domain.csproj", "{299DE58B-4577-412A-88BD-5E9D1144CB8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Application", "HRLeaveManagement.Application\HRLeaveManagement.Application.csproj", "{F2572BBF-4B71-4695-BAF5-C6628222FB00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22B96620-BC3B-41CE-AE9D-D8BBB58FC018} = {F7235274-3184-493A-9EDC-F9858E3BF24C}
+		{A0FB3DB1-B2F3-46D2-9CE1-8DBCEAC73638} = {F7235274-3184-493A-9EDC-F9858E3BF24C}
+		{82BE6837-6C8F-4D28-A823-59962BA00CCC} = {F7235274-3184-493A-9EDC-F9858E3BF24C}
+		{299DE58B-4577-412A-88BD-5E9D1144CB8A} = {A0FB3DB1-B2F3-46D2-9CE1-8DBCEAC73638}
+		{F2572BBF-4B71-4695-BAF5-C6628222FB00} = {A0FB3DB1-B2F3-46D2-9CE1-8DBCEAC73638}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{299DE58B-4577-412A-88BD-5E9D1144CB8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299DE58B-4577-412A-88BD-5E9D1144CB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299DE58B-4577-412A-88BD-5E9D1144CB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299DE58B-4577-412A-88BD-5E9D1144CB8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2572BBF-4B71-4695-BAF5-C6628222FB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2572BBF-4B71-4695-BAF5-C6628222FB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2572BBF-4B71-4695-BAF5-C6628222FB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2572BBF-4B71-4695-BAF5-C6628222FB00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
